@@ -4,7 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+
 .apt_generated
 .classpath
 .factorypath
@@ -13,27 +13,27 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+- IntelliJ IDEA
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+- NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+- VSCode
 .vscode/
 
-### OS ###
+- OS
 .DS_Store
 Thumbs.db
 
-# Never commit real secrets / local config
+- local config
 application.properties
 !application.properties.example
 *.env
